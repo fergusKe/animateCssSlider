@@ -1,0 +1,72 @@
+@import 'normalize';
+@import 'custom';
+
+$dot-color: rgba(255, 255, 255, .6);
+$dot-active-color: #c70025;
+
+.slider {
+  position: relative;
+  width: 1349px;
+  height: 530px;
+  // overflow: hidden;
+	margin: 0 auto 0;
+  .slider-cont {
+		position: relative;
+		width: 100%;
+    height: 530px;
+    overflow: hidden;
+    li {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  .dotNav{
+    position: absolute;
+    left: -6px;
+    li{
+      background-color: $dot-color;
+      width: auto;
+      height: 35px;
+      line-height: 35px;
+      padding-left: 20px;
+      padding-right: 20px;
+      letter-spacing: 1px;
+      font-size: 14px;
+      color: #000;
+      cursor: pointer;
+      transition: .3s;
+      & ~li {
+        margin-top: 8px;
+      }
+    }
+    .active{
+      background-color:  $dot-active-color;
+      color: #FFF;
+    }
+	}
+	.btn1 {
+		display: none;
+	}
+	.slider_summerSale {
+		.btn1 {
+			display: block;
+			position: absolute;
+			top: 318px;
+			width: 188px;
+			height: 50px;
+			letter-spacing: 7px;
+			padding-left: 7px;
+		}
+		.b-1 {
+			left: 845px;
+		}
+		.b-2 {
+			left: 1045px;
+		}
+	}
+}

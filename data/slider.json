@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "title": "2018 夏日系列",
+      "ga": "slider_summerSale",
+      "img": "images/slider/summerSale.jpg",
+      "target": "_blank",
+      "link": "http://www.levis.com.tw/v2/official/SalePageCategory/211090"
+    },
+    {
+      "title": "2018 PRIDE COLLECTION",
+      "ga": "slider_Pride",
+      "img": "images/slider/pride.jpg",
+      "target": "_blank",
+      "link": "https://www.levi.com.tw/story.html?date=20180605-01"
+    },
+    {
+      "title": "Cool Jeans 機能系丹寧",
+      "ga": "slider_coolJeans",
+      "img": "images/slider/coolJeans.jpg",
+      "target": "_blank",
+      "link": "https://www.levi.com.tw/story.html?date=20180413-01"
+    },
+    {
+      "title": "SilverTab銀標復刻系列",
+      "ga": "slider_SilverTab",
+      "img": "images/slider/silverTab.jpg",
+      "target": "_blank",
+      "link":
+        "https://levi.com.tw/SilverTab/?utm_source=website&utm_medium=big_banner&utm_campaign=SilverTab"
+    },
+    {
+      "title": "限量街拍系列",
+      "ga": "slider_street",
+      "img": "images/slider/street.jpg",
+      "target": "_blank",
+      "link": "http://bit.ly/2KnzEay "
+    },
+    {
+      "title": "NBA限量聯名系列",
+      "ga": "slider_nab_collection",
+      "img": "images/slider/collection.jpg",
+      "target": "_blank",
+      "link": "http://bit.ly/2lnm2O5"
+    },
+    {
+      "title": "日本制頂級手工丹寧",
+      "ga": "slider_mij",
+      "img": "images/slider/mij.jpg",
+      "target": "_blank",
+      "link": "http://www.levi.com.tw/MadeInJapan/"
+    },
+    {
+      "title": "全新Revel™ 緊身窄管",
+      "ga": "slider_revel",
+      "img": "images/slider/revel.jpg",
+      "target": "_blank",
+      "link": "http://www.levi.com.tw/Revel/"
+    }
+  ]
+}
